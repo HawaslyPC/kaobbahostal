@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hostal Kaobba - Viajar, vivir, volver: siempre Kaobba</title>
+
+    <link rel="icon" type="image/png" href="/img/logo2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#inicio" class="nav__logo">
+                <img src="/img/logo2.png" alt="Kaobba Hostal Logo" class="nav__logo-img" />
+                <span>Kaobba</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#esencia" class="nav__link">Nuestra Esencia</a></li>
+                    <li class="nav__item"><a href="#habitaciones" class="nav__link">Habitaciones</a></li>
+                    <li class="nav__item"><a href="#servicios" class="nav__link">Servicios</a></li>
+                    <li class="nav__item"><a href="#ubicacion" class="nav__link">Ubicación</a></li>
+                    <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__buttons">
+                <a href="https://www.airbnb.com.co/users/show/681582568" target="_blank" class="button nav__button">Reservar</a>
+                
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon theme-toggle__moon"></i>
+                    <i class="fas fa-sun theme-toggle__sun"></i>
+                </button>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="inicio" id="inicio">
+            <div class="inicio__container container">
+                <div class="inicio__data">
+                    <h1 class="inicio__title">Viajar, vivir, volver: siempre Kaobba</h1>
+                    <p class="inicio__description">
+                        Kaobba es la mezcla de libertad, autenticidad y diversión, con la tranquilidad y seguridad que cada viajero merece.
+                    </p>
+                    <a href="#habitaciones" class="button button--flex">
+                        Explora las Habitaciones <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+<section class="section container" id="habitaciones">
+            <h2 class="section__title">Un Lugar Para Cada Viajero</h2>
+        
+            <div class="habitaciones__grid">
+                <div class="habitacion">
+                    <div class="carousel-container" id="carousel1">
+                        <div class="carousel-slide">
+                            <img src="img/habs/hab_101/hab_101_camas.avif" alt="Habitación 101">
+                            <img src="img/habs/hab_101/hab_101_sala.avif" alt="Habitación 101 Sala">
+                            <img src="img/habs/hab_101/hab_101_bano2.avif" alt="Habitación 101 Baño">
+                            <img src="img/habs/hab_101/hab_101_balcon.avif" alt="Habitación 101 Balcón">
+                        </div>
+                        <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                    <div class="habitacion__content">
+                        <h3 class="habitacion__title">Habitación Privada para 5 en Laureles</h3>
+                        <p class="habitacion__description">Disfruta de esta cómoda habitación privada para hasta 5 personas, ideal para familias o amigos. Cuenta con baño privado, camas confortables y nevera minibar. Aprovecha nuestras zonas comunes como la cocina equipada, el área de coworking y la estación de café de cortesía en el vibrante y tranquilo sector de Laureles-Estadio.</p>
+                        <a href="https://www.airbnb.com.co/rooms/1522558177200722752?source_impression_id=p3_1760807603_P3kFW1aUeylaxiFT" class="habitacion__button" target="_blank">Ver Precios →</a>
+                    </div>
+                </div>
+        
+                <div class="habitacion">
+                    <div class="carousel-container" id="carousel2">
+                        <div class="carousel-slide">
+                            <img src="img/habs/hab_102/hab_102_cama1.avif" alt="Habitación 102">
+                            <img src="img/habs/hab_102/hab_102_cama2.avif" alt="Habitación 102">
+                            <img src="img/habs/hab_102/hab_102_ad.avif" alt="Habitación 102">
+                            <img src="img/habs/hab_102/hab_102_ad2.avif" alt="Habitación 102">
+                        </div>
+                        <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                    <div class="habitacion__content">
+                        <h3 class="habitacion__title">Habitación Privada para 4 en Laureles</h3>
+                        <p class="habitacion__description">Perfecta para familias o grupos, esta habitación privada ofrece capacidad para 4 personas con cama matrimonial y camarote. Incluye baño privado, zona de trabajo y nevera minibar para tu confort. Disfruta del acceso a nuestra cocina compartida, patio con área de coworking y estación de café, todo en una de las zonas más agradables y estratégicas de Medellín.</p>
+                        <a href="https://www.airbnb.com.co/rooms/1526928977671874288?source_impression_id=p3_1760807603_P3tytXSYCHzxB6Em" class="habitacion__button" target="_blank">Ver Precios →</a>
+                    </div>
+                </div>
+        
+                <div class="habitacion">
+                    <div class="carousel-container" id="carousel3">
+                        <div class="carousel-slide">
+                            <img src="img/habs/hab_103/hab_103_cama3.avif" alt="Habitación 103">
+                            <img src="img/habs/hab_103/hab_103_cama1.avif" alt="Habitación 103">
+                            <img src="img/habs/hab_103/hab_103_ad1.avif" alt="Habitación 103">
+                            <img src="img/habs/hab_103/hab_103_cama2.avif" alt="Habitación 103">
+                        </div>
+                        <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                    <div class="habitacion__content">
+                        <h3 class="habitacion__title">Habitación Privada para 5 en Laureles</h3>
+                        <p class="habitacion__description">Disfruta de esta espaciosa habitación privada para hasta 5 personas, perfecta para familias o grupos de amigos. Equipada con baño privado, camas confortables, sofá cama y nevera minibar. Además, aprovecha nuestras zonas comunes: cocina equipada, patio con área de coworking y estación de café de cortesía en el tranquilo y céntrico sector de Laureles-Estadio.</p>
+                        <a href="https://www.airbnb.com.co/rooms/1527677674406262099?source_impression_id=p3_1760807603_P3juXf0X9JvH0Wc7" class="habitacion__button" target="_blank">Ver Precios →</a>
+                    </div>
+                </div>
+        
+                <div class="habitacion">
+                    <div class="carousel-container" id="carousel4">
+                        <div class="carousel-slide">
+                            <img src="img/habs/hab_104/hab_104_cama.avif" alt="Habitación 104">
+                            <img src="img/habs/hab_104/hab_104_cama2.avif" alt="Habitación 104">
+                            <img src="img/habs/hab_104/hab_104_cama3.avif" alt="Habitación 104">
+                            <img src="img/habs/hab_104/hab_104_bano.jpeg" alt="Habitación 104">
+                        </div>
+                        <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                    <div class="habitacion__content">
+                        <h3 class="habitacion__title">Habitación Privada para 5 en Laureles</h3>
+                        <p class="habitacion__description">Una habitación privada y espaciosa diseñada para la comodidad de hasta 5 personas. Incluye baño privado, dos camas matrimoniales, sofá cama y nevera. Como huésped, tendrás acceso completo a nuestras zonas comunes: cocina, patio con espacio de trabajo y café de cortesía. Ubicado en una zona residencial tranquila y segura, con fácil acceso a los principales atractivos de Medellín.</p>
+                        <a href="https://www.airbnb.com.co/rooms/1527704033800648608?source_impression_id=p3_1760807603_P3Vso4YHgmabtYSw" class="habitacion__button" target="_blank">Ver Precios →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section class="section container" id="ubicacion">
+            <h2 class="section__title">¡Aquí estamos! Te espera una aventura en Kaobba</h2>
+            <div class="location-kao__container">
+                <div class="location-kao__map-frame">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.985232011818!2d-75.59661792412311!3d6.265671993723025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442914666459b1%3A0x954b47928c1938dd!2sCl.%2052B%20%23%2078-102%2C%20Laureles%20-%20Estadio%2C%20Medell%C3%ADn%2C%20Laureles%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1760989209985!5m2!1ses-419!2sco" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Ubicación de Kaobba Hostal en Google Maps">
+                    </iframe>
+                </div>
+                <div class="location-kao__info">
+                    <img src="img/kao.png" alt="Kao señalando la ubicación" class="location-kao__image">
+                    <p class="location-kao__text">
+                        ¡Kao te da la bienvenida! Estamos justo aquí en Laureles, Medellín.
+                        Un barrio lleno de vida, gastronomía y cultura local. ¡Prepárate para explorar!
+                    </p>
+                    <a href="https://maps.app.goo.gl/gvV2Ykk8WSn9oWCg9" target="_blank" class="button button--flex location-kao__button">
+                        Abrir en Google Maps <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+<section class="section container" id="esencia">
+            <h2 class="section__title">Nuestra Esencia</h2>
+            <div class="esencia__grid">
+                <div class="esencia__content">
+                    <h3 class="esencia__title"><i class="fas fa-bullseye"></i> Misión</h3>
+                    <p class="esencia__description">En Kaobba Hostal ofrecemos un espacio donde lo natural y lo urbano se encuentran, brindando hospitalidad cálida, segura y cercana. Nuestra misión es que cada viajero viva la esencia auténtica de Medellín, disfrutando de un ambiente familiar, divertido y creativo, donde se generen conexiones, experiencias memorables y siempre el deseo de volver.</p>
+                </div>
+                <div class="esencia__content">
+                    <h3 class="esencia__title"><i class="fas fa-eye"></i> Visión</h3>
+                    <p class="esencia__description">Ser el hostal referente en Medellín y Colombia por nuestra propuesta única que combina naturaleza, arte y comunidad. Aspiramos a posicionarnos como un lugar de encuentro cultural y turístico, reconocido por su ambiente bohemio y moderno, capaz de inspirar a viajeros de todo el mundo a descubrir, conectar y disfrutar de experiencias auténticas en la ciudad.</p>
+                </div>
+            </div>
+        </section>
+
+<section class="section container" id="valores">
+            <h2 class="section__title">Los Pilares de Kaobba</h2>
+            <div class="valores__container">
+                <article class="valor__card">
+                    <div class="valor__card-content">
+                        <h3 class="valor__title">Autenticidad</h3>
+                        <p class="valor__description">Cada rincón de Kaobba refleja lo genuino de Medellín. Buscamos que cada experiencia sea real, cercana y única, conectando al viajero con la verdadera cultura local.</p>
+                    </div>
+                </article>
+        
+                <article class="valor__card">
+                    <div class="valor__card-content">
+                        <h3 class="valor__title">Cercanía</h3>
+                        <p class="valor__description">Más que un hostal, somos un hogar. La hospitalidad cálida y la atención personalizada hacen que cada huésped se sienta parte de nuestra familia desde el primer momento.</p>
+                    </div>
+                </article>
+        
+                <article class="valor__card">
+                    <div class="valor__card-content">
+                        <h3 class="valor__title">Conexión</h3>
+                        <p class="valor__description">Kaobba es un punto de encuentro entre culturas, personas y experiencias. Un espacio para compartir, crear amistades y llevarse memorias que trascienden el viaje.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+<section class="section container">
+            <div class="kao__grid">
+                <div class="kao__image">
+                    <img src="img/kao.png" alt="Mascota Kao del Hostal Kaobba">
+                </div>
+                <div class="kao__content">
+                    <h2 class="section__title--left">¡Hola, soy Kao!</h2>
+                    <p class="kao__description">
+                        Kao es el embajador del hostal. Su función es acercar la marca a mochileros, familias y viajeros de todo el mundo de una forma cercana y divertida. Aparece en señalética, redes sociales, y materiales promocionales, creando conexión emocional y recordación.
+                    </p>
+                    <div class="kao__personality">
+                        <span><i class="fas fa-sun"></i> Alegre</span>
+                        <span><i class="fas fa-compass"></i> Aventurero</span>
+                        <span><i class="fas fa-leaf"></i> Protector</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+<section class="section container" id="servicios">
+            <h2 class="section__title">Servicios que Amarás</h2>
+            <div class="servicios__container">
+                <div class="servicio__item"><i class="fas fa-wifi"></i><h3>WiFi de Alta Velocidad</h3></div>
+                <div class="servicio__item"><i class="fas fa-coffee"></i><h3>Café de Origen</h3></div>
+                <div class="servicio__item"><i class="fas fa-kitchen-set"></i><h3>Cocina Equipada</h3></div>
+                <div class="servicio__item"><i class="fas fa-laptop-code"></i><h3>Zona de Trabajo</h3></div>
+                <div class="servicio__item"><i class="fas fa-jug-detergent"></i><h3>Lavandería</h3></div>
+                <div class="servicio__item"><i class="fas fa-users"></i><h3>Áreas Sociales</h3></div>
+            </div>
+            <div class="servicios__button-container">
+                <button class="button" id="open-services-modal">Ver todos los servicios</button>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer" id="contacto">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <h3 class="footer__title">Kaobba Hostal</h3>
+                <address class="footer__address">
+                    <a href="https://maps.app.goo.gl/gvV2Ykk8WSn9oWCg9" target="_blank">
+                        <p class="footer__contact-info">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Cl. 52B # 78-102, Laureles - Estadio, Medellín, Colombia
+                        </p>
+                    </a>
+                   
+                    <a href="mailto:kaobbahostal@gmail.com" class="footer__contact-info">
+                        <i class="fas fa-envelope"></i>
+                        kaobbahostal@gmail.com
+                    </a>
+                    <a href="tel:+573155550635" class="footer__contact-info">
+                        <i class="fas fa-phone"></i>
+                        +57 315 5550635
+                    </a>
+                </address>
+            </div>
+            <div class="footer__social">
+                <h4 class="footer__social-title">Síguenos</h4>
+                <div class="footer__social-links">
+                    <a href="https://www.instagram.com/kaobbahostal/" target="_blank" class="footer__social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/kaobbahostal" target="_blank" class="footer__social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/573155550635" target="_blank" class="footer__social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.tiktok.com/@kaobbahostal" target="_blank" class="footer__social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">© Kaobba Hostal. Todos los derechos reservados.</p>
+    </footer>
+
+<div class="services-modal__container" id="services-modal-container">
+        <div class="services-modal__content">
+            <button class="services-modal__close" id="close-services-modal" aria-label="Cerrar ventana"><i class="fas fa-times"></i></button>
+            <h3 class="services-modal__title">Todos Nuestros Servicios</h3>
+            <ul class="services-modal__list">
+                <li><i class="fas fa-wifi"></i> WiFi de Alta Velocidad</li>
+                <li><i class="fas fa-tv"></i> TV</li>
+                <li><i class="fas fa-kitchen-set"></i> Cocina Equipada</li>
+                <li><i class="fas fa-shield-alt"></i> Seguridad</li>
+                <li><i class="fas fa-wave-square"></i> Microondas</li>
+                <li><i class="fas fa-jug-detergent"></i> Lavadora</li>
+                <li><i class="fas fa-sun"></i> Secadora</li>
+                <li><i class="fas fa-laptop-code"></i> Zona de Trabajo</li>
+                <li><i class="fas fa-users"></i> Áreas Sociales</li>
+                <li><i class="fas fa-coffee"></i> Café de Origen</li>
+                <li><i class="fas fa-video"></i> Cámaras de Seguridad</li>
+                <li><i class="fas fa-calendar-check"></i> Disponible para Estadías Largas</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
