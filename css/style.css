@@ -1,4 +1,3 @@
-/* ==================== GUÍA DE MARCA Y VARIABLES ==================== */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Lato:wght@400;700&display=swap');
 
 :root {
@@ -33,7 +32,6 @@
     --header-height: 5rem;
 }
 
-/* ==================== DARK THEME VARIABLES ==================== */
 body.dark-theme {
     --primary-color: #E89A76;
     --primary-rgb: 232, 154, 118;
@@ -45,8 +43,6 @@ body.dark-theme {
     --white-color: #253333;
 }
 
-
-/* ==================== BASE Y RESET ==================== */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -100,7 +96,6 @@ address {
     font-style: normal;
 }
 
-/* ==================== LAYOUT Y REUTILIZABLES ==================== */
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -161,8 +156,6 @@ address {
     align-items: center;
     gap: .5rem;
 }
-
-/* ==================== HEADER Y NAVEGACIÓN ==================== */
 .header {
     width: 100%;
     position: fixed;
@@ -276,8 +269,6 @@ address {
     transform: translateY(-9px) rotate(-45deg);
 }
 
-
-/* ==================== THEME TOGGLE BUTTON ==================== */
 .theme-toggle {
     font-size: 1.4rem;
     color: var(--dark-color);
@@ -327,7 +318,6 @@ body.dark-theme .theme-toggle__moon {
     opacity: 0;
 }
 
-/* ==================== INICIO (HERO SECTION) ==================== */
 .inicio {
     background: linear-gradient(rgba(47, 79, 79, 0.7), rgba(47, 79, 79, 0.7)), url('../img/back.png') no-repeat center center/cover;
     height: 90vh;
@@ -368,7 +358,6 @@ body.dark-theme .theme-toggle__moon {
     }
 }
 
-/* ==================== ESENCIA ==================== */
 .esencia__grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -397,7 +386,6 @@ body.dark-theme .theme-toggle__moon {
     line-height: 1.8;
 }
 
-/* ==================== VALORES ==================== */
 .valores__container {
     padding-top: 2rem;
     display: grid;
@@ -437,7 +425,6 @@ body.dark-theme .theme-toggle__moon {
     line-height: 1.6;
 }
 
-/* ==================== HABITACIONES Y CARRUSEL ==================== */
 .habitaciones__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -569,7 +556,6 @@ body.dark-theme .theme-toggle__moon {
     transform: scale(1.2);
 }
 
-/* ==================== KAO (MASCOTA) ==================== */
 .kao__grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -622,7 +608,6 @@ body.dark-theme .theme-toggle__moon {
     }
 }
 
-/* ==================== SERVICIOS ==================== */
 .servicios__container {
     display: flex;
     flex-wrap: wrap;
@@ -653,7 +638,6 @@ body.dark-theme .theme-toggle__moon {
     margin-top: 3rem;
 }
 
-/* ==================== MODAL DE SERVICIOS ==================== */
 .services-modal__container {
     position: fixed;
     top: 0;
@@ -732,7 +716,6 @@ body.dark-theme .theme-toggle__moon {
     text-align: center;
 }
 
-/* ==================== FOOTER ==================== */
 .footer {
     background-color: var(--dark-color);
     color: #EAEAEA;
@@ -818,7 +801,6 @@ body.dark-theme .footer__social-link {
     padding-top: 2rem;
 }
 
-/* ==================== UBICACIÓN CON KAO Y MAPA ==================== */
 .location-kao__container {
     display: grid;
     grid-template-columns: 1fr;
@@ -894,8 +876,6 @@ body.dark-theme .footer__social-link {
     }
 }
 
-/* ==================== DARK THEME ADJUSTMENTS ==================== */
-
 body.dark-theme .header.scrolled {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
@@ -947,7 +927,6 @@ body.dark-theme .nav__menu {
 }
 
 
-/* ==================== MEDIA QUERIES ==================== */
 @media screen and (min-width: 768px) {
     .esencia__grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1035,4 +1014,5 @@ body.dark-theme .nav__menu {
     .nav__toggle {
         display: block;
     }
+
 }
